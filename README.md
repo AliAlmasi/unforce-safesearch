@@ -1,4 +1,5 @@
-<h1>Unforce Google SafeSearch</h1>
+<div align="center"><img src="./img.jpg" height=300>
+<h1>Unforce Google SafeSearch</h1></div>
 <p>Recently, the Iranian government <a href="https://digiato-com.translate.goog/article/2022/07/12/safesearch-internet-mobile?_x_tr_sl=fa&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">has made changes</a> in the national DNS servers, which causes all DNS requests for Google to be sent to the domain <code>forcesafesearch.google.com</code> (to IP <code>216.239.38.120</code>), which forces all Google users,  regardless of their settings ,  have to use Google with the SafeSearch on.</p>
 <h2>How to bypass this?</h2>
 <p>To bypass this, the system must manually introduce Google's regular search servers (<code>google.com </code> - <code> 142.250.180.142</code>). For this, it is necessary to use the <code>hosts</code> file available in the operating systems to introduce the IP directly to the system so that it does not request Google's safe search from the country's DNS.</p>
